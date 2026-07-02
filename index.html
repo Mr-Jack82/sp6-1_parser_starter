@@ -1,255 +1,316 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./assets/logo.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Vite — Modern Development Tool</title>
-    <meta name="description"
-          content="Explore Vite - A modern development tool for faster and efficient web applications. Learn about features, suggested products, and reviews."/>
-    <meta name="keywords"
-          content="Vite, modern development tool, web development, UI design, UX design, prototyping, reviews"/>
 
-    <meta property="og:title" content="About Vite — Modern Development Tool"/>
-    <meta property="og:image" content="./assets/logo.svg"/>
-    <meta property="og:type" content="website"/>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./assets/logo.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Vite — Modern Development Tool</title>
+  <meta name="description"
+    content="Explore Vite - A modern development tool for faster and efficient web applications. Learn about features, suggested products, and reviews." />
+  <meta name="keywords"
+    content="Vite, modern development tool, web development, UI design, UX design, prototyping, reviews" />
 
-    <link rel="stylesheet" href="./fonts/ys-display/fonts.css">
-    <link rel="stylesheet" href="./style.css">
-  </head>
-  <body>
-    <div id="app">
-      <header class="section">
+  <meta property="og:title" content="About Vite — Modern Development Tool" />
+  <meta property="og:image" content="./assets/logo.svg" />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="./fonts/ys-display/fonts.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div id="app">
+    <header class="section">
+      <div class="container">
+        <a href="#">
+          <img src="./assets/logo.svg" alt="logo" />
+        </a>
+        <nav class="menu">
+          <a href="#">Home</a>
+          <a href="#">Home</a>
+          <a href="#">Home</a>
+        </nav>
+        <nav class="buttons">
+          <button class="button">Home</button>
+          <button class="button primary">Home</button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="product" data-id="product1">
         <div class="container">
-          <a href="#">
-            <img src="./assets/logo.svg" alt="logo" />
-          </a>
-          <nav class="menu">
-            <a href="#">Home</a>
-            <a href="#">Home</a>
-            <a href="#">Home</a>
-          </nav>
-          <nav class="buttons">
-            <button class="button">Home</button>
-            <button class="button primary">Home</button>
-          </nav>
+          <div class="preview">
+            <figure>
+              <img
+                src="https://placehold.co/600?text=1"
+                alt="preview"
+              />
+              <button class="like"></button>
+            </figure>
+            <nav>
+              <button disabled>
+                <img
+                  src="https://placehold.co/92x66?text=1"
+                  data-src="https://placehold.co/600?text=1"
+                  alt="slide1"
+                />
+                </button>
+              <button>
+                <img
+                  src="https://placehold.co/92x66?text=2"
+                  data-src="https://placehold.co/600?text=2"
+                  alt="slide2"
+                />
+              </button>
+              <button>
+                <img
+                  src="https://placehold.co/92x66?text=3"
+                  data-src="https://placehold.co/600?text=3"
+                  alt="slide3"
+                />
+              </button>
+              <button>
+                <img
+                  src="https://placehold.co/92x66?text=4"
+                  data-src="https://placehold.co/600?text=4"
+                  alt="slide4"
+                />
+              </button>
+              <button>
+                <img
+                  src="https://placehold.co/92x66?text=5"
+                  data-src="https://placehold.co/600?text=5"
+                  alt="slide5"
+                />
+              </button>
+            </nav>
+          </div>
+          <div class="about">
+            <h1 class="title">About Vite</h1>
+            <div class="tags">
+              <span class="green">tag1</span>
+              <span class="blue">tag2</span>
+              <span class="red">tag3</span>
+            </div>
+            <div class="price">
+              ₽50
+              <span>₽80</span>
+            </div>
+            <ul class="properties">
+              <li>
+                <span>key1</span>
+                <span>value1</span>
+              </li>
+              <li>
+                <span>key2</span>
+                <span>value2</span>
+              </li>
+              <li>
+                <span>key3</span>
+                <span>value3</span>
+              </li>
+            </ul>
+            <button class="button primary cta">Buy</button>
+            <div class="description">
+              <h3 class="unused">Title</h3>
+              <p>Answer the frequently asked question in a simple sentence, a longish paragraph, or even in a list.</p>
+              <p>Answer the frequently asked question in a simple sentence, a longish paragraph, or even in a list.</p>
+              <p>Answer the frequently asked question in a simple sentence, a longish paragraph, or even in a list.</p>
+              <p>Answer the frequently asked question in a simple sentence, a longish paragraph, or even in a list.</p>
+              <p>Answer the frequently asked question in a simple sentence, a longish paragraph, or even in a list.</p>
+              <p>Answer the frequently asked question in a simple sentence, a longish paragraph, or even in a list.</p>
+              <p>Answer the frequently asked question in a simple sentence, a longish paragraph, or even in a list.</p>
+              <p>Answer the frequently asked question in a simple sentence, a longish paragraph, or even in a list.</p>
+            </div>
+          </div>
         </div>
-      </header>
+      </section>
 
-      <main>
-        <section class="product" data-id="product1">
-          <div class="container">
-            <div class="preview">
-              <figure>
-                <img src="https://placehold.co/600?text=1" alt="preview" />
-                <button class="like"></button>
-              </figure>
-              <nav>
-                <button disabled><img src="https://placehold.co/92x66?text=1" data-src="https://placehold.co/600?text=1" alt="slide1" /></button>
-                <button><img src="https://placehold.co/92x66?text=2" data-src="https://placehold.co/600?text=2" alt="slide2" /></button>
-                <button><img src="https://placehold.co/92x66?text=3" data-src="https://placehold.co/600?text=3" alt="slide3" /></button>
-                <button><img src="https://placehold.co/92x66?text=4" data-src="https://placehold.co/600?text=4" alt="slide4" /></button>
-                <button><img src="https://placehold.co/92x66?text=5" data-src="https://placehold.co/600?text=5" alt="slide5" /></button>
-              </nav>
-            </div>
-            <div class="about">
-              <h1 class="title">About Vite</h1>
-              <div class="tags">
-                <span class="green">tag1</span>
-                <span class="blue">tag2</span>
-                <span class="red">tag3</span>
-              </div>
-              <div class="price">
-                ₽50
-                <span>₽80</span>
-              </div>
-              <ul class="properties">
-                <li>
-                  <span>key1</span>
-                  <span>value1</span>
-                </li>
-                <li>
-                  <span>key2</span>
-                  <span>value2</span>
-                </li>
-                <li>
-                  <span>key3</span>
-                  <span>value3</span>
-                </li>
-              </ul>
-              <button class="button primary cta">Buy</button>
-              <div class="description">
-                <h3 class="unused">Title</h3>
-                <p>Answer the freaquently asked question in a simple sentence, a longish paragraph, or even in a list.</p>
-                <p>Answer the freaquently asked question in a simple sentence, a longish paragraph, or even in a list.</p>
-                <p>Answer the freaquently asked question in a simple sentence, a longish paragraph, or even in a list.</p>
-                <p>Answer the freaquently asked question in a simple sentence, a longish paragraph, or even in a list.</p>
-                <p>Answer the freaquently asked question in a simple sentence, a longish paragraph, or even in a list.</p>
-                <p>Answer the freaquently asked question in a simple sentence, a longish paragraph, or even in a list.</p>
-                <p>Answer the freaquently asked question in a simple sentence, a longish paragraph, or even in a list.</p>
-                <p>Answer the freaquently asked question in a simple sentence, a longish paragraph, or even in a list.</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="suggested">
-          <div class="container">
-            <h2 class="title">Suggested products</h2>
-            <div class="items">
-              <article>
-                <img src="https://placehold.co/240x300?text=A" alt="preview" />
-                <h3>test title</h3>
-                <b>₽34123</b>
-                <p>desc about product</p>
-              </article>
-              <article>
-                <img src="https://placehold.co/240x300?text=A" alt="preview" />
-                <h3>test title</h3>
-                <b>₽34123</b>
-                <p>desc about product</p>
-              </article>
-              <article>
-                <img src="https://placehold.co/240x300?text=A" alt="preview" />
-                <h3>test title</h3>
-                <b>₽34123</b>
-                <p>desc about product</p>
-              </article>
-              <article>
-                <img src="https://placehold.co/240x300?text=A" alt="preview" />
-                <h3>test title</h3>
-                <b>₽34123</b>
-                <p>desc about product</p>
-              </article>
-            </div>
-          </div>
-        </section>
-
-        <section class="reviews">
-          <div class="container">
-            <h2 class="title">Reviews</h2>
-            <div class="items">
-              <article>
-                <div class="rating">
-                  <span class="filled"></span>
-                  <span class="filled"></span>
-                  <span class="empty"></span>
-                  <span class="empty"></span>
-                  <span class="empty"></span>
-                </div>
-                <div>
-                  <h3 class="title">title</h3>
-                  <p>desc</p>
-                </div>
-                <div class="author">
-                  <img src="https://placehold.co/48/424242/white.svg?text=1" alt="preview" />
-                  <span>author</span>
-                  <i>15/09/2024</i>
-                </div>
-              </article>
-              <article>
-                <div class="rating">
-                  <span class="filled"></span>
-                  <span class="filled"></span>
-                  <span class="filled"></span>
-                  <span class="filled"></span>
-                  <span class="empty"></span>
-                </div>
-                <div>
-                  <h3 class="title">title</h3>
-                  <p>desc</p>
-                </div>
-                <div class="author">
-                  <img src="https://placehold.co/48/424242/white.svg?text=1" alt="preview" />
-                  <span>author</span>
-                  <i>03/03/2024</i>
-                </div>
-              </article>
-              <article>
-                <div class="rating">
-                  <span class="filled"></span>
-                  <span class="filled"></span>
-                  <span class="filled"></span>
-                  <span class="empty"></span>
-                  <span class="empty"></span>
-                </div>
-                <div>
-                  <h3 class="title">title</h3>
-                  <p>desc</p>
-                </div>
-                <div class="author">
-                  <img src="https://placehold.co/48/424242/white.svg?text=1" alt="preview" />
-                  <span>author</span>
-                  <i>16/06/2025</i>
-                </div>
-              </article>
-            </div>
-          </div>
-        </section>
-
-        <section class="subscribe">
-          <div class="container">
-            <div>
-              <h2 class="title">Follow the latest trends</h2>
-              <p>With our daily newsletter</p>
-            </div>
-            <form>
-              <label>
-                <input class="input" type="email" placeholder="Enter your email" />
-              </label>
-              <button class="button primary">Submit</button>
-            </form>
-          </div>
-        </section>
-
-      </main>
-
-      <footer>
+      <section class="suggested">
         <div class="container">
-          <a href="#">
-            <img src="./assets/logo.svg" alt="logo" />
-          </a>
-          <nav>
-            <h3>Use cases</h3>
-            <ul>
-              <li><a href="#">UI design</a></li>
-              <li><a href="#">UX design</a></li>
-              <li><a href="#">Wireframing</a></li>
-              <li><a href="#">Diagramming</a></li>
-              <li><a href="#">Brainshtorming</a></li>
-            </ul>
-          </nav>
-          <nav>
-            <h3>Explore</h3>
-            <ul>
-              <li><a href="#">Design</a></li>
-              <li><a href="#">Prototyping</a></li>
-              <li><a href="#">Design system</a></li>
-              <li><a href="#">Design process</a></li>
-              <li><a href="#">FigJam</a></li>
-            </ul>
-          </nav>
-          <nav>
-            <h3>Resources</h3>
-            <ul>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Best practices</a></li>
-              <li><a href="#">Colors</a></li>
-              <li><a href="#">Color wheel</a></li>
-              <li><a href="#">Support</a></li>
-              <li><a href="#">Developers</a></li>
-            </ul>
-          </nav>
+          <h2 class="title">Suggested products</h2>
+          <div class="items">
+            <article>
+              <img
+                src="https://placehold.co/240x300?text=A"
+                alt="preview"
+              />
+              <h3>test title</h3>
+              <b>₽34123</b>
+              <p>desc about product</p>
+            </article>
+            <article>
+              <img
+                src="https://placehold.co/240x300?text=A"
+                alt="preview"
+              />
+              <h3>test title</h3>
+              <b>₽34123</b>
+              <p>desc about product</p>
+            </article>
+            <article>
+              <img
+                src="https://placehold.co/240x300?text=A"
+                alt="preview"
+              />
+              <h3>test title</h3>
+              <b>₽34123</b>
+              <p>desc about product</p>
+            </article>
+            <article>
+              <img
+                src="https://placehold.co/240x300?text=A"
+                alt="preview"
+              />
+              <h3>test title</h3>
+              <b>₽34123</b>
+              <p>desc about product</p>
+            </article>
+          </div>
         </div>
-      </footer>
+      </section>
 
-    </div>
-    <script src="./main.js"></script>
-    <script src="./parser.js"></script>
-    <script src="https://webinars.webdev.education-services.ru/examples/sp6.1/tests.min.js"></script>
-    <script>
-      console.log(parsePage());
-      //void makeTests(parsePage);
-    </script>
-  </body>
+      <section class="reviews">
+        <div class="container">
+          <h2 class="title">Reviews</h2>
+          <div class="items">
+            <article>
+              <div class="rating">
+                <span class="filled"></span>
+                <span class="filled"></span>
+                <span class="empty"></span>
+                <span class="empty"></span>
+                <span class="empty"></span>
+              </div>
+              <div>
+                <h3 class="title">title</h3>
+                <p>desc</p>
+              </div>
+              <div class="author">
+                <img
+                  src="https://placehold.co/48/424242/white.svg?text=1"
+                  alt="preview"
+                />
+                <span>author</span>
+                <i>15/09/2024</i>
+              </div>
+            </article>
+            <article>
+              <div class="rating">
+                <span class="filled"></span>
+                <span class="filled"></span>
+                <span class="filled"></span>
+                <span class="filled"></span>
+                <span class="empty"></span>
+              </div>
+              <div>
+                <h3 class="title">title</h3>
+                <p>desc</p>
+              </div>
+              <div class="author">
+                <img
+                  src="https://placehold.co/48/424242/white.svg?text=1"
+                  alt="preview"
+                />
+                <span>author</span>
+                <i>03/03/2024</i>
+              </div>
+            </article>
+            <article>
+              <div class="rating">
+                <span class="filled"></span>
+                <span class="filled"></span>
+                <span class="filled"></span>
+                <span class="empty"></span>
+                <span class="empty"></span>
+              </div>
+              <div>
+                <h3 class="title">title</h3>
+                <p>desc</p>
+              </div>
+              <div class="author">
+                <img
+                  src="https://placehold.co/48/424242/white.svg?text=1"
+                  alt="preview"
+                />
+                <span>author</span>
+                <i>16/06/2025</i>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="subscribe">
+        <div class="container">
+          <div>
+            <h2 class="title">Follow the latest trends</h2>
+            <p>With our daily newsletter</p>
+          </div>
+          <form>
+            <label>
+              <input
+                class="input"
+                type="email"
+                placeholder="Enter your email"
+              />
+            </label>
+            <button class="button primary">Submit</button>
+          </form>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div class="container">
+        <a href="#">
+          <img src="./assets/logo.svg" alt="logo" />
+        </a>
+        <nav>
+          <h3>Use cases</h3>
+          <ul>
+            <li><a href="#">UI design</a></li>
+            <li><a href="#">UX design</a></li>
+            <li><a href="#">Wireframing</a></li>
+            <li><a href="#">Diagramming</a></li>
+            <li><a href="#">Brainstorming</a></li>
+          </ul>
+        </nav>
+        <nav>
+          <h3>Explore</h3>
+          <ul>
+            <li><a href="#">Design</a></li>
+            <li><a href="#">Prototyping</a></li>
+            <li><a href="#">Design system</a></li>
+            <li><a href="#">Design process</a></li>
+            <li><a href="#">FigJam</a></li>
+          </ul>
+        </nav>
+        <nav>
+          <h3>Resources</h3>
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Best practices</a></li>
+            <li><a href="#">Colors</a></li>
+            <li><a href="#">Color wheel</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Developers</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+  </div>
+  <script src="./main.js"></script>
+  <script src="./parser.js"></script>
+  <script src="https://webinars.webdev.education-services.ru/examples/sp6.1/tests.min.js"></script>
+  <script>
+    console.log(parsePage());
+    void makeTests(parsePage);
+  </script>
+</body>
+
 </html>
